@@ -1,0 +1,43 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 16px;
+  /* the font-family property value you got from Google Fonts */
+  font-family: 'DM Serif Text', serif;
+  /* sets the webpage background color */
+  background-color: white;
+}
+
+body {
+  width: 92vw;
+  margin: 5vh auto;
+  background-color: #ebebeb;
+  padding: 20px 20px 20px 20px;
+  /*border: 5px solid black;*/
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #aaaaaa;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 1px;
+}
+
+
+#homepageIntro {
+  color: black;
+  width: 12rem;
+  margin: 3rem;
+}
