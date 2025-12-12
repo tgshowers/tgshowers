@@ -34,7 +34,10 @@ li {
   line-height: 1.25;
   letter-spacing: 1px;
 }
-
+div {
+  margin: auto;
+  align-items: center;
+}
 
 #homepageIntro {
   color: black;
