@@ -34,13 +34,10 @@ li {
   line-height: 1.25;
   letter-spacing: 1px;
 }
-div {
-  margin: auto;
+.center {
+  display: flexbox;
+  margin: 0;
+  text-align: center;
   align-items: center;
-}
-
-#homepageIntro {
-  color: black;
-  width: 12rem;
-  margin: 3rem;
+  
 }
