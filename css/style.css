@@ -35,9 +35,22 @@ li {
   letter-spacing: 1px;
 }
 .center {
-  display: flexbox;
+  display: flex;
   margin: 0;
   text-align: center;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   
+}
+.container {
+  display: flex; /* Enables Flexbox */
+  flex-direction: row; /* Arranges items horizontally (default) */
+  justify-content: space-between; /* Spreads items out */
+  gap: 10px; /* Adds space between items */
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+}
+div {
+  align-items: center;
 }
