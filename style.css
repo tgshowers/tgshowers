@@ -8,8 +8,9 @@ html {
 }
 
 body {
-  width: 92vw;
-  margin: 5vh auto;
+  width: 100%-40px;
+  height: auto;
+  margin: 1rem 1rem;
   background-color: #ebebeb;
   padding: 20px 20px 20px 20px;
   /*border: 5px solid black;*/
@@ -53,4 +54,20 @@ li {
 }
 div {
   align-items: center;
+}
+
+
+ul.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: #d2d2d2;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
 }
