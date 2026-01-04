@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 100%-40px;
+  width: calc(100%-40px);
   height: auto;
   margin: 1% 1%;
   background-color: #3e4943;
