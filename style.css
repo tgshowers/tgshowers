@@ -11,9 +11,9 @@ html {
 body {
   width: 100%-40px;
   height: auto;
-  margin: 1rem 1rem;
+  margin: 1% 1%;
   background-color: #3e4943;
-  padding: 1rem;
+  padding: 1%;
   /*border: 5px solid black;*/
   border-radius: 10px;
 }
@@ -62,7 +62,7 @@ div {
 ul.header {
   list-style-type: none;
   margin: 0;
-  padding: 0rem;
+  padding: 0%;
   overflow: hidden;
   background-color: #ffffff00;
   display: flex;
@@ -105,4 +105,59 @@ nav {
 
 a {
   color: #bde2ee;
+}
+
+.homepagetri
+{
+  display: flex;
+  height: auto;
+  width: auto;
+  gap: 1%;
+}
+
+.leftbar {
+  display: block;
+  width: 16%;
+  height: auto;
+  overflow-wrap: break-word;
+  padding: 1%;
+  margin-bottom: 1%;
+  border: 2px solid black;
+  
+}
+
+.pleftbar {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  letter-spacing: .01rem;
+  font-size: 16px;
+}
+
+.mainsection
+{
+  display: block;
+  width: 60%;
+  padding: 1rem;
+  border: 2px solid grey;
+}
+
+.pmainsection
+{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 1rem;
+}
+
+.rightbar {
+  display: block;
+  width: 16%;
+  height: auto;
+  overflow-wrap: break-word;
+  padding: 1%;
+  margin-bottom: 1%;
+  border: 2px solid black;
+  
 }
